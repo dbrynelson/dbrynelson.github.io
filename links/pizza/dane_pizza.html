@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Dane's Pizza</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./css/dane_pizza_style.css">
+</head>
+<body background="./images/pizza.jpg">
+
+
+<header>
+  <h1>Dane's Pizza!</h1>
+</header>
+
+<section>
+	<div class="flex-container">
+		<div id="menuBG">
+		<form id="frmMenu">
+				<div class="menu">
+					<h3>Size:</h3>
+					<input class="size" type="radio" name="Size" value="Personal Pizza" onclick="getReceipt()"> Personal Pizza<br>
+					<input class="size" type="radio" name="Size" value="Medium Pizza" onclick="getReceipt()"> Medium Pizza<br>
+					<input class="size" type="radio" name="Size" value="Large Pizza" onclick="getReceipt()"> Large Pizza<br>
+					<input class="size" type="radio" name="Size" value="Extra Large Pizza" onclick="getReceipt()"> Extra Large Pizza<br>
+				</div>
+				<div class="menu">
+					<h3>Sauce:</h3>
+					<input class="sauce" type="radio" name="Sauce" value="Marinara sauce" onclick="getReceipt()"> Marinara sauce<br>
+					<input class="sauce" type="radio" name="Sauce" value="White sauce" onclick="getReceipt()"> White sauce<br>
+					<input class="sauce" type="radio" name="Sauce" value="Barbeque sauce" onclick="getReceipt()"> Barbeque sauce<br>
+					<input class="sauce" type="radio" name="Sauce" value="No sauce" onclick="getReceipt()"> No sauce<br>
+				</div>
+				<div class="menu">
+					<h3>Crust:</h3>
+					<input class="crust" type="radio" name="Crust" value="Plain Crust" onclick="getReceipt()"> Plain Crust<br>
+					<input class="crust" type="radio" name="Crust" value="Garlic Butter Crust" onclick="getReceipt()"> Garlic Butter Crust<br>
+					<input class="crust" type="radio" name="Crust" value="Cheese Stuffed Crust" onclick="getReceipt()"> Cheese Stuffed Crust<br>
+					<input class="crust" type="radio" name="Crust" value="Spicy Crust" onclick="getReceipt()"> Spicy Crust<br>
+					<input class="crust" type="radio" name="Crust" value="House Special Crust" onclick="getReceipt()"> House Special Crust<br>
+				</div>
+				<div class="menu">
+					<h3>Cheese:</h3>
+					<input class="cheese" type="radio" name="Cheese" value="Regular cheese" onclick="getReceipt()"> Regular cheese<br>
+					<input class="cheese" type="radio" name="Cheese" value="No cheese" onclick="getReceipt()"> No cheese<br>
+					<input class="cheese" type="radio" name="Cheese" value="Extra cheese" onclick="getReceipt()"> Extra cheese<br>
+				</div>
+				<div class="menu">
+					<h3>Meats:</h3>
+					<input class="meats" type="checkbox" name="Meat" value="Pepperoni" onclick="getReceipt()"> Pepperoni<br>
+					<input class="meats" type="checkbox" name="Meat" value="Sausage" onclick="getReceipt()"> Sausage <br>
+					<input class="meats" type="checkbox" name="Meat" value="Canadian Bacon" onclick="getReceipt()"> Canadian Bacon<br> 
+					<input class="meats" type="checkbox" name="Meat" value="Ground Beef" onclick="getReceipt()"> Ground Beef<br>
+					<input class="meats" type="checkbox" name="Meat" value="Anchovy" onclick="getReceipt()"> Anchovy<br>
+					<input class="meats" type="checkbox" name="Meat" value="Chicken" onclick="getReceipt()"> Chicken<br>
+				</div>
+				<div class="menu">
+					<h3>Veggies:</h3>
+					<input class="veggies" type="checkbox" name="Veggie" value="Tomatoes" onclick="getReceipt()"> Tomatoes<br>
+					<input class="veggies" type="checkbox" name="Veggie" value="Onions" onclick="getReceipt()"> Onions <br>
+					<input class="veggies" type="checkbox" name="Veggie" value="Olives" onclick="getReceipt()"> Olives<br> 
+					<input class="veggies" type="checkbox" name="Veggie" value="Green Peppers" onclick="getReceipt()"> Green Peppers<br>
+					<input class="veggies" type="checkbox" name="Veggie" value="Mushrooms" onclick="getReceipt()"> Mushrooms<br>
+					<input class="veggies" type="checkbox" name="Veggie" value="Pineapple" onclick="getReceipt()"> Pineapple<br>
+					<input class="veggies" type="checkbox" name="Veggie" value="Spinach" onclick="getReceipt()"> Spinach<br>
+					<input class="veggies" type="checkbox" name="Veggie" value="Jalapeno" onclick="getReceipt()"> Jalapeno<br>
+				</div>
+			</form>
+		</div>
+		<div id="cart">
+			
+				<div id="title1">
+					<h3>You Ordered:</h3>
+				</div>&nbsp;&nbsp;&nbsp;&nbsp;
+				
+				<div id="showText1">
+
+				</div>
+				<div id="totalPrice1"><h3>Total Price:</h3></div>
+				<div id="totalPrice2">$0.00</div>
+
+
+			
+		</div>
+		
+	</div>
+
+
+
+</section>
+
+<footer>
+
+	<div class="button" onclick="clearAll()">Clear</div>
+
+</footer>
+<script  src="./js/dane_pizza.js"></script>
+</body>
+</html>
