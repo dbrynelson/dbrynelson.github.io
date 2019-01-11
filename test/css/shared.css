@@ -1,0 +1,13 @@
+﻿body {
+    background-color: #32CD32;
+}
+
+.container>h1 {
+    color: #FFF;
+    text-shadow: 2px 2px 2px yellow;
+    font-family:Impact;
+}
+
+.nav-item {
+    color: yellow;
+}
