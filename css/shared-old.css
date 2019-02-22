@@ -1,0 +1,112 @@
+﻿body {
+    background-color: #32CD32;
+}
+
+.container>h1 {
+    color: #FFF;
+    text-shadow: 2px 2px 2px yellow;
+    font-family:Impact;
+    
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #32CD32;
+    background-color: yellow;
+    border-color: yellow;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid yellow;
+}
+
+    .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+        border-color: yellow;
+    }
+
+.nav-link:focus, .nav-link:hover {
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+
+
+a {
+    color: yellow;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+
+/*#home-tab {
+    background-color: yellow;
+}*/
+
+.active {
+    color: yellow;
+}
+
+.btn {
+    background-color: yellow;
+    color: #32CD32;
+    
+}
+
+.modal-content {
+    background-color: #32CD32;
+}
+
+.modal-header {
+    background-color: #32CD32;
+}
+
+.modal-body {
+    background-color: #32CD32;
+}
+
+.btn-primary {
+    color: #32CD32;
+    background-color: yellow;
+    border-color: yellow;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #32CD32;
+    border-color: #FFF;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem #FFF;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #FFF;
+}
+
+.btn-primary:hover {
+    color: #32CD32;
+    background-color: #FFF;
+    border-color: #FFF;
+}
+
+.btn-primary.outline.active {
+    background-color: yellow;
+}
+
+.btn-secondary {
+    color: #32CD32;
+    background-color: yellow;
+    border-color: yellow;
+}
+
+.btn-secondary:hover {
+    color: #32CD32;
+    background-color: #FFF;
+    border-color: #FFF;
+}
