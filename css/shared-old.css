@@ -2,6 +2,23 @@
     background-color: #32CD32;
 }
 
+.fa {
+  padding: 10px;
+  font-size: 50px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  color: #32CD32;
+  background: yellow;
+}
+
+.fa:hover {
+    opacity: 0.7;
+	
+}
+
 .container>h1 {
     color: #FFF;
     text-shadow: 2px 2px 2px yellow;
