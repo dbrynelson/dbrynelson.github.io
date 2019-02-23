@@ -1,4 +1,6 @@
-﻿body {
+﻿/* Dane Brynelson */
+
+body {
 	background: #FFFF00;
 	padding: 20px;
 }
@@ -20,6 +22,14 @@
 	background: #696969;
 	color: #32CD32;
 	
+}
+
+.fa-code {
+	background: #FFFF00;
+	color: #696969;
+	padding: 5px;
+	font-size: 28px;
+	margin: 0;
 }
 
 .main {
@@ -55,11 +65,12 @@
 .socialLinks>h1 {
 	color: #32CD32;
 	font-size: 40px;
-    font-family:Impact;
+    font-family:Arial;
 	display: grid;
 	justify-content: center;
 	align-items: center;
-	margin: 0px;
+	margin: 0;
+	padding: 0;
 	
 	
 }
@@ -67,10 +78,12 @@
 .socialLinks>h3 {
 	color: #696969;
 	font-size: 28px;
-    font-family:Impact;
-	display: grid;
+    font-family:Arial;
+	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 0;
+	margin: 0;
 
 }
 
@@ -78,6 +91,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 10px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -156,3 +170,4 @@
 	justify-content: center;
 	align-items: center;
 }
+
