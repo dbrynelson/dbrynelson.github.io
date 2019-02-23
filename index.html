@@ -5,24 +5,40 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="./css/shared.css" />
 </head>
-<body>
+<body onload="typeWriter()">
 	<div class="main">
+			
 		<div class="socialLinks">
-			<h1>Dane Brynelson</h1>
+			<h1 id="demo"></h1>
 			<h3>Junior Developer</h3>
 		
 			<list>
-			<a href="https://twitter.com/dbrynelson" class="fa fa-twitter" target="_blank"></a>
-			<a href="https://www.instagram.com/dbrynelson/" class="fa fa-instagram" target="_blank"></a>
-			<a href="https://www.linkedin.com/in/dbrynelson" class="fa fa-linkedin" target="_blank"></a>
-			<a href="https://github.com/dbrynelson" class="fa fa-github" target="_blank"></a>
-			<a href="mailto:dbrynelson@gmail.com?Subject=Hello" class="fa fa-envelope" target="_blank"></a>
+				<a href="https://twitter.com/dbrynelson" class="fa fa-twitter" target="_blank"></a>
+				<a href="https://www.instagram.com/dbrynelson/" class="fa fa-instagram" target="_blank"></a>
+				<a href="https://www.linkedin.com/in/dbrynelson" class="fa fa-linkedin" target="_blank"></a>
+				<a href="https://github.com/dbrynelson" class="fa fa-github" target="_blank"></a>
+				<!-- <a href="" class="fa fa-folder" target="_blank"></a> -->
+				<a href="mailto:dbrynelson@gmail.com?Subject=Hello" class="fa fa-envelope" target="_blank"></a>
 			<!-- <a href="#" class="fa fa-youtube"></a> -->
 			</list>
 		</div>
 	</div>
 
-
+	<script>
+		var i = 0;
+		var txt = '<Dane Brynelson>';
+		var speed = 50;
+		
+		function typeWriter() {
+			if (i < txt.length) {
+			
+			document.getElementById("demo").innerHTML
+			+= txt.charAt(i);
+				i++;
+				setTimeout(typeWriter, speed);
+				}
+			}
+	</script>
 
 
 
