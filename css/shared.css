@@ -24,10 +24,9 @@
 
 .main {
 	background: #FFFF00;
-	height: 200px;
-	width: 60%;
+	height: 600px;
+	width: 80%;
 	margin: 0 auto;
-	margin-top: 10%;
 	padding: 20px;
 	display: flex;
 	justify-content: center;
@@ -41,16 +40,16 @@
 .socialLinks {
   background: #FFFF00;
   color: #32CD32;
-  width: 50%;
+  width: 600px;
+  height: 600px;
   padding: 20px;
-  overflow: auto;
+  overflow: hidden;
   
 }
 
 .socialLinks>h1 {
 	color: #32CD32;
 	font-size: 40px;
-    text-shadow: 2px 2px 2px #FFF;
     font-family:Impact;
 	display: grid;
 	justify-content: center;
@@ -63,7 +62,6 @@
 .socialLinks>h3 {
 	color: #696969;
 	font-size: 28px;
-    text-shadow: 2px 2px 2px #FFF;
     font-family:Impact;
 	display: grid;
 	justify-content: center;
