@@ -1,0 +1,285 @@
+﻿/* Dane Brynelson */
+
+body {
+	background: #FFFF00;
+	padding: 20px;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+  border-radius: 50%;
+  color: #FFFF00;
+  background: #32CD32;
+}
+
+.fa:hover {
+    opacity: 0.7;
+	background: #696969;
+	color: #32CD32;
+	
+}
+
+.fa-code {
+	background: #FFFF00;
+	color: #696969;
+	padding: 5px;
+	font-size: 28px;
+	margin: 0;
+}
+
+.main {
+	background: #FFFF00;
+	/* position: fixed; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* /* bring your own prefixes */ */
+  /* transform: translate(-50%, -50%); */
+	height: 600px;
+	width: 80%;
+	margin: auto;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: auto;
+	overflow-y: hidden;
+	justify-content: center;
+	align-items: center;
+}
+
+.socialLinks {
+  background: #FFFF00;
+  color: #32CD32;
+  width: 600px;
+  height: 600px;
+  padding: 20px;
+  overflow: hidden;
+  
+}
+
+.socialLinks>h1 {
+	color: #32CD32;
+	font-size: 40px;
+    font-family:Arial;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	
+	
+}
+
+.socialLinks>h3 {
+	color: #696969;
+	font-size: 28px;
+    font-family:Arial;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	margin: 0;
+
+}
+
+.socialLinks>list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #FFFF00;
+  }
+  
+  .fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+  border-radius: 50%;
+  color: #FFFF00;
+  background: #32CD32;
+}
+
+.fa:hover {
+    opacity: 0.7;
+	background: #696969;
+	color: #32CD32;
+	
+}
+
+.fa-code {
+	background: #FFFF00;
+	color: #696969;
+	padding: 5px;
+	font-size: 20px;
+	margin: 0;
+}
+
+.main {
+	background: #FFFF00;
+	height: 600px;
+	width: 80%;
+	margin: auto;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: auto;
+	overflow-y: hidden;
+	justify-content: center;
+	align-items: center;
+}
+
+.socialLinks {
+  background: #FFFF00;
+  color: #32CD32;
+  width: 600px;
+  height: 600px;
+  padding: 20px;
+  overflow: hidden;
+  
+}
+
+.socialLinks>h1 {
+	color: #32CD32;
+	font-size: 22px;
+    font-family:Arial;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	
+	
+}
+
+.socialLinks>h3 {
+	color: #696969;
+	font-size: 14px;
+    font-family:Arial;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+
+}
+
+.socialLinks>list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #32CD32;
+    background-color: yellow;
+    border-color: yellow;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid yellow;
+}
+
+    .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+        border-color: yellow;
+    }
+
+.nav-link:focus, .nav-link:hover {
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+
+
+a {
+    color: yellow;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+
+/*#home-tab {
+    background-color: yellow;
+}*/
+
+.active {
+    color: yellow;
+}
+
+.btn {
+    background-color: yellow;
+    color: #32CD32;
+    
+}
+
+.modal-content {
+    background-color: #32CD32;
+}
+
+.modal-header {
+    background-color: #32CD32;
+}
+
+.modal-body {
+    background-color: #32CD32;
+}
+
+.btn-primary {
+    color: #32CD32;
+    background-color: yellow;
+    border-color: yellow;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #32CD32;
+    border-color: #FFF;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem #FFF;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #FFF;
+}
+
+.btn-primary:hover {
+    color: #32CD32;
+    background-color: #FFF;
+    border-color: #FFF;
+}
+
+.btn-primary.outline.active {
+    background-color: yellow;
+}
+
+.btn-secondary {
+    color: #32CD32;
+    background-color: yellow;
+    border-color: yellow;
+}
+
+.btn-secondary:hover {
+    color: #32CD32;
+    background-color: #FFF;
+    border-color: #FFF;
+}
