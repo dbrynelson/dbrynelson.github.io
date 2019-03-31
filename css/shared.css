@@ -85,6 +85,7 @@
 
 .container>h1 {
     color: #FFF;
+	text-align: center;
     text-shadow: 2px 2px 2px #32CD32;
     font-family:Impact;
     
@@ -184,6 +185,7 @@ a {
     background-color: #FFF;
     border-color: #FFF;
 }
+
 
 
 @media only screen and (max-width: 600px) {
