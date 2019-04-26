@@ -29,6 +29,14 @@
 	margin: 0;
 }
 
+.fa-code:hover {
+	opacity: 1;
+	background: #FFFF00;
+	color: #696969;
+	padding: 5px;
+	font-size: 28px;
+	margin: 0;
+}
 
 .main {
 	background: #FFFF00;
@@ -83,6 +91,10 @@
 	/* padding: 10px; */
 }
 
+.container {
+	padding-bottom: 50px;
+}
+
 .container>h1 {
     color: #FFF;
 	text-align: center;
@@ -99,6 +111,13 @@
 
 .nav-tabs {
     border-bottom: 1px solid #32CD32;
+}
+
+.tab-content {
+	border-left: 1px solid #32CD32;
+	border-right: 1px solid #32CD32;
+	border-bottom: 1px solid #32CD32;
+	padding-bottom: 60px;
 }
 
     .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
