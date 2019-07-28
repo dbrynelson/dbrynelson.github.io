@@ -205,7 +205,27 @@ a {
     border-color: #FFF;
 }
 
+i {
+	font-size: 6rem;
+	padding: 5px;
+	margin: 0;
+}
 
+.skills-icons {
+	align-items: center;
+	text-align: center;
+}
+
+.devicon {
+	padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+  border-radius: 50%;
+  color: #FFFF00;
+  background: #32CD32;
+  font-size: 6rem;
+}
 
 @media only screen and (max-width: 600px) {
   body {
