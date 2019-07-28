@@ -318,4 +318,8 @@ i {
     color: #FFFF00;
 	padding: 20px;
 	margin: 5px;
+
+}.logo_main {
+	width: 175px;
+	height: 175px;
 }
