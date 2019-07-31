@@ -241,6 +241,8 @@ i {
   font-size: 6rem;
 }
 
+
+
 @media only screen and (max-width: 600px) {
   body {
     background-color: #FFFF00;
