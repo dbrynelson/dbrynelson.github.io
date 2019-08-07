@@ -387,8 +387,17 @@ i {
 .btn {
     background-color: #32CD32;
     color: #FFFF00;
-	padding: 20px;
-	margin: 5px;
+    padding: 10px;
+    width: 35%;    
+}
+
+.btn.selected {
+	background-color: #32CD32;
+	border-color: #FFF;
+	border: 2px;
+	padding: 10px;
+    color: #FFFF00;
+    width: 35%; 
 }
 
 .rounded-circle {
@@ -397,9 +406,10 @@ i {
 	align-items: center;
 }
 
-
-.column {
-  
+.column {  
   width: 100%;
-   /* Hide all elements by default */
+}
+
+#demo {
+	width: 100%;
 }
