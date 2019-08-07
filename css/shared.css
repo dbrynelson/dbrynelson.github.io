@@ -1,11 +1,24 @@
-﻿body {
+﻿* {
+  box-sizing: border-box;
+}
+
+body {
     background-color: #FFFF00;
+    color: #32CD32;
+}
+
+#demo {
+	width: 400px;
 }
 
 .rounded-circle {
 	width: 400px;
 	height: 400px;
 	align-items: center;
+}
+
+.row {
+  margin: 10px -16px;
 }
 
 .fa {
@@ -147,17 +160,58 @@ a {
     -webkit-text-decoration-skip: objects;
 }
 
-.active {
+/*.active {
     color: #32CD32;
+}*/
+.selected {
+	color: #32CD32;
 }
 
 .btn {
     background-color: #32CD32;
     color: #FFFF00;
-    
+    width: 100px;    
 }
 
-.modal-content {
+.btn.selected {
+	background-color: #32CD32;
+	border-color: #FFF;
+	border: 2px;
+    color: #FFFF00;
+    width: 100px; 
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: #32CD32;
+  color: #FFFF00;
+  padding: 10px;
+}
+
+.show {
+  display: block;
+}
+
+/*.modal-content {
     background-color: #FFFF00;
 }
 
@@ -210,7 +264,7 @@ a {
     color: #32CD32;
     background-color: #FFF;
     border-color: #FFF;
-}
+}*/
 
 i {
 	font-size: 6rem;
@@ -246,6 +300,7 @@ i {
 @media only screen and (max-width: 600px) {
   body {
     background-color: #FFFF00;
+    color: #32CD32;
   }
   
  .fa {
@@ -340,4 +395,11 @@ i {
 	width: 250px;
 	height: 250px;
 	align-items: center;
+}
+
+
+.column {
+  
+  width: 100%;
+   /* Hide all elements by default */
 }
