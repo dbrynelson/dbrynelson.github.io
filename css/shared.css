@@ -14,7 +14,6 @@ body {
 .rounded-circle {
 	width: 400px;
 	height: 400px;
-	align-items: center;
 }
 
 .row {
@@ -458,4 +457,7 @@ i {
 	margin: 0;
 }
 
+li.nav-item {
+	font-size: 0.86rem;
+}
 }
