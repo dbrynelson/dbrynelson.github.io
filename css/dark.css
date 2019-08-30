@@ -317,8 +317,8 @@ i {
 
 @media only screen and (max-width: 600px) {
   body {
-    background-color: #FFFF00;
-    color: #32CD32;
+    background-color: #000;
+    color: #FFF;
   }
   
  .fa {
@@ -327,30 +327,30 @@ i {
   text-decoration: none;
   margin: 5px;
   border-radius: 50%;
-  color: #FFFF00;
-  background: #32CD32;
+  color: #FFF;
+  background: #FF17CA;
   
 }
 
 .fa:hover {
     opacity: 0.7;
-	background: #696969;
-	color: #32CD32;
+	background: #000;
+	color: #FFF;
 	text-decoration: none;
 	
 }
 
 .fa-code {
-	background: #FFFF00;
-	color: #696969;
+	background: none;
+	color: #FF17CA;
 	padding: 5px;
 	font-size: 28px;
 	margin: 0;
 }
 
 .main {
-	background: #FFFF00;
-	width: 80%;
+/*	background: #000;
+*/	width: 80%;
 	margin: auto;
 	display: flex;
 	justify-content: center;
@@ -362,16 +362,15 @@ i {
 }
 
 .socialLinks {
-  background: #FFFF00;
   font-size: 18px;
-  color: #32CD32;
+  color: #FF17CA;
   /* padding: 20px; */
   overflow: hidden;
   
 }
 
 .socialLinks>h1 {
-	color: #32CD32;
+	color: #FF17CA;
 	font-size: 28px;
     font-family:Arial;
 	display: grid;
@@ -384,7 +383,7 @@ i {
 }
 
 .socialLinks>h3 {
-	color: #696969;
+	color: #FF17CA;
 	font-size: 18px;
     font-family:Arial;
 	display: flex;
@@ -403,19 +402,19 @@ i {
 }
 
 .btn {
-    background-color: #32CD32;
-    color: #FFFF00;
+    background-color: #FF17CA;
+    color: #FFF;
     padding: 10px;
     margin-top: 10px;
     width: 35%;    
 }
 
 .btn.selected {
-	background-color: #32CD32;
+	background-color: #FFF;
 	border-color: #FFF;
 	border: 2px;
 	padding: 10px;
-    color: #FFFF00;
+    color: #696969;
     width: 35%; 
 }
 
@@ -437,7 +436,7 @@ i {
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3){
 
 .socialLinks>h1 {
-	color: #32CD32;
+	color: #FFF;
 	font-size: 24px;
     font-family:Arial;
 	display: grid;
@@ -452,7 +451,7 @@ i {
 @media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2){
 
 .socialLinks>h1 {
-	color: #32CD32;
+	color: #FF17CA;
 	font-size: 22px;
     font-family:Arial;
 	display: grid;
@@ -463,7 +462,7 @@ i {
 }
 
 .socialLinks>h3 {
-	color: #696969;
+	color: #FF17CA;
 	font-size: 16px;
     font-family:Arial;
 	display: flex;
@@ -474,6 +473,9 @@ i {
 }
 
 li.nav-item {
-	font-size: 0.86rem;
+	font-size: 0.75rem;
 }
+
+.btn {
+	font-size: 0.80rem;
 }
