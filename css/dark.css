@@ -314,10 +314,15 @@ i {
 
 
 @media only screen and (max-width: 600px) {
-  body {
+ body {
     background-color: #000;
+    background: url("../img/oahu_sunset.jpg") no-repeat center center fixed;
+	background-size: cover;
+	height: 100%;
+	width:100%;
+	/*overflow: hidden;*/
     color: #FFF;
-  }
+}
   
  .fa {
   padding: 10px;
@@ -431,6 +436,7 @@ i {
 }
 }
 
+/* Iphone 5 */
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3){
 
 .socialLinks>h1 {
@@ -445,7 +451,7 @@ i {
 }
 }
 
-
+/* Android */
 @media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2){
 
 .socialLinks>h1 {
