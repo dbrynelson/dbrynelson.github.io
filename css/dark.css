@@ -30,7 +30,24 @@ body {
   background: #FF17CA;
 }
 
+.fab {
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+  border-radius: 50%;
+  color: #FFF;
+  background: #FF17CA;
+}
+
 .fa:hover {
+    opacity: 0.7;
+	background: #FFF;
+	color: #FF17CA;
+	text-decoration: none;
+}
+
+.fab:hover {
     opacity: 0.7;
 	background: #FFF;
 	color: #FF17CA;
