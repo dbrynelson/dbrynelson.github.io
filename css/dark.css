@@ -317,11 +317,9 @@ i {
  body {
     background-color: #000;
     background: url("../img/oahu_sunset.jpg") no-repeat center center fixed;
-	background-size: cover;
+	background-size: auto;
 	height: 100%;
-	width:100%;
-	/*overflow: hidden;*/
-    color: #FFF;
+	color: #FFF;
 }
   
  .fa {
@@ -352,8 +350,7 @@ i {
 }
 
 .main {
-/*	background: #000;
-*/	width: 80%;
+	width: 80%;
 	margin: auto;
 	display: flex;
 	justify-content: center;
@@ -367,9 +364,7 @@ i {
 .socialLinks {
   font-size: 18px;
   color: #FF17CA;
-  /* padding: 20px; */
-  overflow: hidden;
-  
+  overflow: hidden; 
 }
 
 .socialLinks>h1 {
@@ -485,6 +480,6 @@ li.nav-item {
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-	font-size: 0.99rem
+	font-size: 0.79rem
 	font-weight: bold;
 }
