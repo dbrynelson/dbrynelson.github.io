@@ -8,9 +8,14 @@ body {
     background: url("../img/oahu_sunset.jpg") no-repeat center center fixed;
 	background-size: cover;
 	height: 100%;
+	/*overflow: hidden;*/
     color: #FFF;
 }
 
+/*#demo {
+	width: 400px;
+}
+*/
 .rounded-circle {
 	width: 400px;
 	height: 400px;
@@ -28,6 +33,7 @@ body {
   border-radius: 50%;
   color: #FFF;
   background: #FF17CA;
+  
 }
 
 .fa:hover {
@@ -35,6 +41,7 @@ body {
 	background: #FFF;
 	color: #FF17CA;
 	text-decoration: none;
+	
 }
 
 .fa-code {
@@ -55,7 +62,8 @@ body {
 }
 
 .main {
-	margin-top: 10px;
+/*	background: #696969;
+*/	margin-top: 10px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -66,10 +74,12 @@ body {
 }
 
 .socialLinks {
-	background: #000;
-	font-size: 30px;
-  	color: #FFF;
-  	overflow: hidden;
+/*  background: #000;
+*/  font-size: 30px;
+  color: #FFF;
+  /* padding: 20px; */
+  overflow: hidden;
+  /*margin-bottom: -5px;*/
 }
 
 .socialLinks>h1 {
@@ -83,6 +93,8 @@ body {
 	align-items: center;
 	margin: 0;
 	padding: 0;
+	
+	
 }
 
 .socialLinks>h3 {
@@ -96,12 +108,14 @@ body {
 	align-items: center;
 	padding: 0;
 	margin: 0;
+
 }
 
 .socialLinks>list {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	/* padding: 10px; */
 }
 
 .container {
@@ -139,9 +153,9 @@ body {
 	padding-bottom: 60px;
 }
 
-.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
-    border-color: #FF17CA;
-}
+    .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+        border-color: #FF17CA;
+    }
 
 .nav-link:focus, .nav-link:hover {
     text-decoration: none;
@@ -159,6 +173,9 @@ a {
     -webkit-text-decoration-skip: objects;
 }
 
+/*.active {
+    color: #32CD32;
+}*/
 .selected {
 	color: #FF17CA;
 }
@@ -210,6 +227,61 @@ a {
   display: block;
 }
 
+/*.modal-content {
+    background-color: #FFFF00;
+}
+
+.modal-header {
+    background-color: #FFFF00;
+}
+
+.modal-body {
+    background-color: #FFFF00;
+}
+
+.btn-primary {
+    color: #FFFF00;
+    background-color: #32CD32;
+    border-color: #32CD32;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #FFFF00;
+    border-color: #FFF;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem #FFF;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #FFF;
+}
+
+.btn-primary:hover {
+    color: #32CD32;
+    background-color: #FFF;
+    border-color: #FFF;
+}
+
+.btn-primary.outline.active {
+    background-color: #32CD32;
+}
+
+.btn-secondary {
+    color: #FFFF00;
+    background-color: #32cd32;
+    border-color: #32CD32;
+}
+
+.btn-secondary:hover {
+    color: #32CD32;
+    background-color: #FFF;
+    border-color: #FFF;
+}*/
+
 i {
 	font-size: 6rem;
 	padding: 5px;
@@ -243,12 +315,9 @@ i {
 
 @media only screen and (max-width: 600px) {
   body {
-    background-color: rgba(0,0,0,.8);
-    background: url("../img/oahu_sunset.jpg") no-repeat center center fixed;
-	background-size: cover;
-	height: 100%;
+    background-color: #000;
     color: #FFF;
-}
+  }
   
  .fa {
   padding: 10px;
@@ -293,7 +362,9 @@ i {
 .socialLinks {
   font-size: 18px;
   color: #FF17CA;
+  /* padding: 20px; */
   overflow: hidden;
+  
 }
 
 .socialLinks>h1 {
@@ -305,6 +376,8 @@ i {
 	align-items: center;
 	margin: 0;
 	padding: 0;
+	
+	
 }
 
 .socialLinks>h3 {
@@ -316,12 +389,14 @@ i {
 	align-items: center;
 	padding: 0;
 	margin: 0;
+
 }
 
 .socialLinks>list {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	/* padding: 10px; */
 }
 
 .btn {
