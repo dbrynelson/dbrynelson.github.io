@@ -373,14 +373,6 @@ i {
 
 @media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2){
 
-body {
-    background-color: rgba(0,0,0,.8);
-    background: url("../img/oahu_sunset.jpg") no-repeat center center fixed;
-	width: 320px;
-	height: 100%;
-    color: #FFF;
-}
-
 .socialLinks>h1 {
 	color: #FF17CA;
 	font-size: 18px;
