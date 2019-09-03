@@ -135,8 +135,7 @@ body {
     color: #FFF;
     font-weight: bolder;
     text-shadow: 2px 2px 2px #FF17CA;
-    background-color: #000;
-    opacity: 0.8;
+    background-color: rgba(0,0,0,0.8);
     border-color: #FF17CA;
 }
 
@@ -147,8 +146,7 @@ body {
 }
 
 .tab-content {
-	opacity: 0.8;
-	background: #000;
+	background-color: rgba(0,0,0,.8);
 	border-left: 1px solid #FF17CA;
 	border-right: 1px solid #FF17CA;
 	border-bottom: 1px solid #FF17CA;
@@ -371,7 +369,7 @@ i {
 
 .socialLinks>h1 {
 	color: #FF17CA;
-	font-size: 28px;
+	font-size: 24px;
     font-family:Arial;
 	display: grid;
 	justify-content: center;
@@ -436,7 +434,7 @@ i {
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3){
 
 .socialLinks>h1 {
-	color: #FFF;
+	color: #FF17CA;
 	font-size: 24px;
     font-family:Arial;
 	display: grid;
@@ -452,7 +450,7 @@ i {
 
 .socialLinks>h1 {
 	color: #FF17CA;
-	font-size: 22px;
+	font-size: 18px;
     font-family:Arial;
 	display: grid;
 	justify-content: center;
@@ -478,4 +476,9 @@ li.nav-item {
 
 .btn {
 	font-size: 0.80rem;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+	font-size: 0.99rem
+	font-weight: bold;
 }
