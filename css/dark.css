@@ -317,7 +317,7 @@ i {
  body {
     background-color: #000;
     background: url("../img/oahu_sunset.jpg") no-repeat center center fixed;
-	background-size: auto;
+	background-size: cover;
 	height: 100%;
 	color: #FFF;
 }
