@@ -7,7 +7,7 @@ body {
 	background-size: contain;
 	/*overflow: hidden;*/
     background-color: none;
-    color: #2C703E;
+    color: #FFF;
 }
 
 .rounded-circle {
@@ -279,8 +279,9 @@ i {
 
 @media only screen and (max-width: 600px) {
 	body {
-		background-size: cover;
-		color: #2C703E;
+		background: url(../img/mobile.png) no-repeat center center fixed;
+		background-size: contain;
+		color: #FFF;
 	}
 
 	.fa {
