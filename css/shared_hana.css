@@ -3,7 +3,7 @@
 }
 
 body {
-	background: url("../img/dane_hana4.png") no-repeat center center fixed;
+	background: url("../img/bg-hana.png") no-repeat center center fixed;
 	background-size: contain;
 	/*overflow: hidden;*/
     background-color: none;
@@ -279,7 +279,7 @@ i {
 
 @media only screen and (max-width: 600px) {
 	body {
-		background: url(../img/mobile.png) no-repeat center center fixed;
+		background: url(../img/hana-mobile.png) no-repeat center center fixed;
 		background-size: cover;
 		color: #FFF;
 	}
