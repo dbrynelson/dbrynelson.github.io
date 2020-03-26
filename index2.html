@@ -3,6 +3,24 @@
 <title>Dane Brynelson</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Fav Icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/favicon2/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon2/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon2/favicon-16x16.png">
+    <link rel="manifest" href="./img/favicon/favicon/site.webmanifest">
+
+    <!-- Dev Icon -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <!-- <link rel='stylesheet' href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css'> -->
+
+    <link rel="stylesheet" href="./css/devicons.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="./js/typeWriter.js"></script>
+
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -63,12 +81,12 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
             <button class="btn" onclick="filterSelection('html_proj')"> HTML</button>
             <button class="btn" onclick="filterSelection('css_proj')"> CSS</button>
 
-    
+
     </div>
   </header>
   
   <!-- First Photo Grid-->
-  <div class="w3-row-padding">
+  <!-- <div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
       <img src="/w3images/mountains.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
@@ -92,7 +110,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     </div>
   </div>
   
-  <!-- Second Photo Grid-->
+   Second Photo Grid
   <div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
       <img src="/w3images/p1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
@@ -115,7 +133,83 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
         <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
       </div>
     </div>
-  </div>
+  </div> -->
+
+  <!-- Portfolio Gallery Grid -->
+            <div class="row">
+              <div class="column csharp_proj">
+                <div class="content">
+                <a href="https://github.com/dbrynelson/Tech-Academy-LiveProject" target="_blank">
+                  <img src="./img/projects/prosper_preview.jpg" alt="csharp_proj" style="width:100%; height: 150px"></a>
+                <h5>Prosper IT Consulting</h5>
+                <p>C#/.NET Project</p>
+                </div>
+              </div>
+              <div class="column js_proj">
+                <div class="content">
+                  <a href="./links/pizza/dane_pizza.html" target="_blank">
+                <img src="./img/projects/pizza_preview.jpg" alt="js_proj" style="width:100%; height: 150px"></a>
+                  <h5>Dane's Pizza Menu</h5>
+                  <p>JavaScript Project</p>
+                </div>
+              </div>
+              <div class="column html_proj css_proj">
+                <div class="content">
+                <a href="./links/space_resort/space_resort.html" target="_blank">
+                  <img src="./img/projects/space_preview.jpg" alt="html_proj" style="width:100%; height: 150px"></a>
+                  <h5>Space Station Resort</h5>
+                  <p>HTML/CSS Project</p>
+                </div>
+              </div>
+              
+              <div class="column css_proj html_proj">
+                <div class="content">
+                  <a href="./links/cinema/cinema.html" target="_blank">
+                  <img src="./img/projects/cinema_preview.jpg" alt="css_proj" style="width:100%; height: 150px"></a>
+                  <h5>Academy Cinemas</h5>
+                  <p>HTML/CSS Project</p>
+                </div>
+              </div>
+              <div class="column js_proj">
+                <div class="content">
+                  <a href="./links/calc/get_val_calc.html" target="_blank">
+                <img src="./img/projects/calc_preview.jpg" alt="js_proj" style="width:100%; height: 150px"></a>
+                  <h5>Basic Calculator</h5>
+                  <p>JavaScript Project</p>
+                </div>
+              </div>
+              <div class="column sql_proj">
+                <div class="content">
+                <img src="./img/projects/librarybooks.jpg" alt="sql_proj" style="width:100%; height: 150px">
+                  <h5>Library Database</h5>
+                  <p>MS SQL Server 2014 Project</p>
+                </div>
+              </div>
+
+              <div class="column csharp_proj">
+                <div class="content">
+                  <a href="https://github.com/dbrynelson/Tech-Academy-C-Sharp-Projects/tree/master/TechAcademyCarInsuranceDrill" target="_blank">
+                  <img src="./img/projects/car-insurance.png" alt="csharp_proj" style="width:100%; height: 150px"></a>
+                  <h5>Car Insurance Quote</h5>
+                  <p>C#/.NET Application</p>
+                </div>
+              </div>
+              <div class="column js_proj">
+                <div class="content">
+                  <a href="./links/js_blackjack/index.html" target="_blank">
+                <img src="./img/projects/blackjack-1-750x420.jpg" alt="js_proj" style="width:100%; height: 150px"></a>
+                  <h5>Blackjack Game</h5>
+                  <p>JavaScript Project</p>
+                </div>
+              </div>
+              <div class="column js_proj">
+                <div class="content">
+                  <a href="http://dbrynelson-react-demo.s3-website.us-east-2.amazonaws.com/" target="_blank">
+                <img src="./img/projects/prosper_preview.jpg" alt="js_proj" style="width:100%; height: 150px"></a>
+                  <h5>Movie Database</h5>
+                  <p>React Application</p>
+                </div>
+              </div>
 
   <!-- Pagination -->
   <div class="w3-center w3-padding-32">
