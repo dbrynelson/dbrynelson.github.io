@@ -73,7 +73,7 @@ body {
 
 .topnav a:hover {
   background-color: #ddd;
-  color: rgb(143, 142, 142);
+  color: black;
 }
 
 .topnav a.active {
