@@ -38,6 +38,30 @@ body {
   display: none;
 }
 
+.socialBar {
+  background-color: black;
+  color: #FFF;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.socialBar a {
+  
+  display: inline-flexbox;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 48px;
+  align-items: flex-end;
+}
+
+.socialBar a:hover {
+  color: #FF00FF;
+}
+
+
 @media screen and (max-width: 600px) {
   .navbar a:not(:first-child) {display: none;}
   .navbar a.icon {
