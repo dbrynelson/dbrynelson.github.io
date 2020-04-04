@@ -5,6 +5,7 @@ body {
   color: white;
 }
 
+/* Navbar */
 .navbar {
   overflow: hidden;
   background-color: #000;  
@@ -37,13 +38,16 @@ body {
 .navbar .icon {
   display: none;
 }
+/* End Navbar */
 
+/* socialBar */
 .socialBar {
   background-color: black;
   color: #FFF;
   position: fixed;
   bottom: 0;
   width: 100%;
+  text-align: center;
 }
 
 .socialBar a {
@@ -58,9 +62,9 @@ body {
 }
 
 .socialBar a:hover {
-  color: #FF00FF;
+  color: #4CAF50;
 }
-
+/* End socialBar */
 
 @media screen and (max-width: 600px) {
   .navbar a:not(:first-child) {display: none;}
