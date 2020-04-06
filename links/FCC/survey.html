@@ -13,9 +13,29 @@
             <h1 id="title">Dane's Survey</h1>
                 <p id="description">Thank you for taking this brief survey!</p>
             
-            <form id="survey-form">
-                
-            </form>
+            <div>
+                <form id="survey-form">
+                    <label for="name" id="name-label"><input type="text" id="name" placeholder="Name" required>Name</label>
+                    <label for="email" id="email-label"><input type="email" id="email" placeholder="email@email.com" required>E-Mail</label>
+                    <label for="age" id="number-label"><input type="number" id="number" placeholder="age" min="0" max="120">Age (Optional)</label>
+                    <label id="dropdown-label">
+                        <select>
+                            <option>Option 1</option>
+                            <option>Option 2</option>
+                            <option>Option 3</option>
+                        </select>
+                    </label>
+                    <label for=""><input type="radio"></label>
+                    <label><input type="radio"></label>
+                    <label><input type="radio"></label>
+                    <label><input type="checkbox"> checks</label>
+                    <label><input type="checkbox"> checks</label>
+                    <label><input type="checkbox"> checks</label>
+                    <label><input type="checkbox"> checks</label>
+                    <textarea>Additional Comments</textarea>
+                    <label><button id="submit" type="submit">Submit</button></label>
+                </form>
+            </div>
         </main>
 
     </body>
