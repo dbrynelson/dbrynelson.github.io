@@ -2,8 +2,12 @@ body {
     background-color: cornflowerblue;
 }
 
-#title {
+main {
     text-align: center;
+}
+
+#title {
+    justify-items: center;
 }
 
 #description {
@@ -14,3 +18,25 @@ body {
     text-shadow: 1px 0px #FFF;
 }
 
+.form-group {
+    float: left;
+    background-color: darkgrey;
+    text-align: left;
+    padding: 5px 5px 5px 5px;
+}
+
+#survey-form {
+    padding: 5px;
+}
+
+#name-label input {
+    width: 99%;
+}
+
+#email-label input {
+    width: 99%;
+}
+
+#age-label number {
+    width: 99%;
+}
