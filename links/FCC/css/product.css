@@ -1,31 +1,33 @@
 body {
     background-color: #646464
   }
-  
+
   header {
-    text-align: center;
-    margin: 25px;
+    display: flex;
+  }
+
+  #header-img {
+    justify-items: center;
+    margin-top: 10px;
   }
 
   #nav-bar {
-    background-color: royalblue;
     position: fixed;
-    top: 100%;
-    width: 100%;
-    color: seashell;
     top: 0;
+    justify-content: center;
+    background-color: dodgerblue;
+    width: 100%;
+  }
+  
+  #nav-bar a {
     text-decoration: none;
   }
 
-#nav-bar a:hover {
-  color: blue;
-}
 
-#flex_box {
-  display: flex;
-}
+@media (max-width: 600px) {
 
-video {
-  width: 100%;
+  video {
+    width: 100%;
+  }
+  
 }
-
