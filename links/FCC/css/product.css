@@ -6,7 +6,26 @@ body {
     text-align: center;
     margin: 25px;
   }
-  
+
+  #nav-bar {
+    background-color: royalblue;
+    position: fixed;
+    top: 100%;
+    width: 100%;
+    color: seashell;
+    top: 0;
+    text-decoration: none;
+  }
+
+#nav-bar a:hover {
+  color: blue;
+}
+
+#flex_box {
+  display: flex;
+}
+
 video {
   width: 100%;
 }
+

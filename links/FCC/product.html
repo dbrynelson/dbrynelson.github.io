@@ -21,16 +21,24 @@
             <main id="main">
               <div id="home">
                   <h1>Home</h1>
+                  <div id="flex_box">
+                    <img src="/img/Dane-Hana.JPG" height="300px" width="auto">
+                  </div>
               </div>
               <div id="about">
                   <h1>About</h1>
                   <video id="video" controls>
-                    <source src="" type="video">
+                    <source src="https://dbrynelson.github.io/video/newyears-2018.mp4" type="video/mp4">
 
                   </video>
               </div>
               <div id="contact">
                 <h1>Contact</h1>
+                <form id="form" action="https://www.freecodecamp.com/email-submit" method="GET">
+                  <label for="email">Email: <input id="email" type="email" placeholder="Email"></label>
+                  <label for="message">Message: <input id="message" type="text" placeholder="Message"></label>
+                  <input id="submit" type="submit" value="Contact" >
+                </form>
               </div>
             </main>
             
