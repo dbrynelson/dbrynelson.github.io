@@ -7,60 +7,6 @@ body {
     margin: 25px;
   }
   
-  header p {
-    font-size: 20px;
-    color: #000;
-    text-shadow: none;
-  }
-  
-  #main {
-    
-  }
-  
-  #title {
-    color: blue;
-    font-size: 50px;
-    font-family: impact;
-    text-shadow: 2px 2px #FFF;
-  }
-  
-  // #img-div {
-  //   background-color: #000;
-  //   color: #FFF;
-  //   padding: 5px 5px 0px 5px;
-  //   border: 3px solid blue;
-  //   max-width: 1000px;
-  // }
-  
-  img {
-    max-width: 100%;
-    display: block;
-    height: auto;
-    margin: 0 auto;
-  }
-  
-  #img-caption {
-    font-style: italic;
-    text-align: center;
-  }
-  
-  #tribute-info {
-    color: #FFF;
-    text-align: center;
-  }
-  
-  #tribute-link {
-    color: blue;
-    font-size: 20px;
-    text-decoration: none;
-  }
-  
-  #tribute-link:hover {
-    color: red;
-    font-size: 40px;
-  }
-  
-  ul {
-    list-style-type: none;
-    text-align: center;
-  }
+video {
+  width: 100%;
+}
