@@ -2,8 +2,130 @@ body {
   background-color: darkslategray;
 }
 
+header {
+  display: inline-flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#headerDiv {
+  width: 1600px;
+  background-color: #FFF;
+  height: auto;
+  display: flex;
+}
+
+#logo {
+  width: 150px;
+  background-color: chartreuse;
+}
+
 #header-img {
-  width: 256px;
-  height: 256px;
+  width: 80%;
+  height: auto;
+  padding-left: 20%;
   border-radius: 0;
 }
+
+.brand-grid {
+  display: grid;
+  width: 600px;
+  min-height: 125px;
+  background-color: black;
+  color: #FFF;
+  grid-template-columns: 0.05fr 1fr 1fr;
+  grid-template-rows: 0.05fr 0.05fr 0.05fr;
+  grid-template-areas: 
+    "letter1 word1 dist"
+    "letter2 word2 dist"
+    "letter3 word3 dist";
+    justify-content: center;
+}
+
+.brand1 {
+  font-size: 32px;
+  background-color: darkgreen;
+  grid-area: letter1;
+}
+
+.brand2 {
+  font-size: 20px;
+  background-color: cornflowerblue;
+  grid-area: word1;
+  padding-top: 8px;
+}
+
+.brand3 {
+  font-size: 32px;
+  background-color: yellow;
+  grid-area: letter2;
+
+}
+
+.brand4 {
+  font-size: 20px;
+  background-color: darkblue;
+  grid-area: word2;
+  padding-top: 8px;
+
+}
+
+.brand5 {
+  font-size: 32px;
+  background-color: orange;
+  grid-area: letter3;
+
+}
+
+.brand6 {
+  font-size: 20px;
+  background-color: violet;
+  grid-area: word3;
+  padding-top: 8px;
+
+}
+
+.brand7 {
+  font-size: 32px;
+  background-color: fuchsia;
+  padding-top: 50px;
+  grid-area: dist;
+}
+
+#navDiv {
+  background-color: blue;
+right: 100;
+width: 800px;
+}
+
+#nav-bar  {
+  display: inline;
+  text-align: right;
+  justify-items: center;
+  /* width: 1200px; */
+}
+
+#nav-bar a {
+  color: #FFF;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  padding: 0px 25px 0px 25px;
+  text-transform: capitalize;
+}
+
+#nav-bar  a:hover {
+  color: #FF0;
+  font-weight: bold;
+}
+
+#nav-bar ul {
+  list-style: none;
+}
+
+#nav-bar li {
+text-align: right;
+width: 100%;
+}
+
