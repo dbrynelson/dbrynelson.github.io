@@ -54,11 +54,12 @@ header {
   position: fixed;
   top: 0;
   min-height: 75px;
-  padding: 0px 20px;
+  /* padding: 0px 20px; */
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #eee;
+  width: 100%;
 }
 
 @media (max-width: 600px) {
@@ -68,7 +69,8 @@ header {
 }
 
 .logo {
-  width: 60vw;
+  float: left;
+  width: 5vw;
 }
 
 @media (max-width: 650px) {
